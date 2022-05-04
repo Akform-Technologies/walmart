@@ -3,6 +3,7 @@ ls
 whoami
 cal 2020
 date
+
 #!/bin/bash
 
 counter=5
