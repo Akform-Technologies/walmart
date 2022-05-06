@@ -18,4 +18,5 @@ fi
 
 echo "i love you"
 
+ls
 
