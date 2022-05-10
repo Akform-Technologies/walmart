@@ -1,7 +1,11 @@
-pipeline {
+  pipeline {
     agent any
     stages {
         stage('build') {
             steps {
-                 echo "Hello World"
-                    sh 'echo Hello World'
+                sh 'echo Hello World'
+            }
+        }
+    }
+}
+
