@@ -30,6 +30,13 @@ pipeline {
 
             steps {
                    echo "I love Jesus"
+            }
+         }
+      }
+            post {
+                always {
+                    
+        }       
 
                 
             }
