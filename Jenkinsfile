@@ -8,7 +8,7 @@ pipeline {
 
             steps {
 
-                sh 'echo Hello World'
+                 sh echo 'Hello World'
 
             }
          }
@@ -19,7 +19,7 @@ pipeline {
 
             steps {
 
-                sh 'echo who are you'
+                 sh echo 'who are you'
 
             }
         }
@@ -29,7 +29,7 @@ pipeline {
         stage('deploy') {
 
             steps {
-                    'sh echo I love Jesus'
+                    echo 'I love Jesus'
 
                 
             }
