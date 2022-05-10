@@ -29,8 +29,9 @@ pipeline {
         stage('deploy') {
 
             steps {
+                    'sh echo I love Jesus'
 
-                whoami
+                
             }
          }
        }
