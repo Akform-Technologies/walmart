@@ -9,30 +9,3 @@ pipeline {
             steps {
 
                  echo "Hello World"
-
-            }
-         }
-
-        stages {
-
-        stage('test') {
-
-            steps {
-
-                  echo "who are you"
-
-            }
-        }
-    
-        stages {
-
-        stage('deploy') {
-
-            steps {
-                   echo "I love Jesus"
-
-                
-            }
-         }
-       }
-     }
