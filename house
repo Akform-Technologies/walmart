@@ -1,5 +1,9 @@
 whoami
 echo halleluyah
 cal 2020
+<<<<<<< HEAD
 jenkins
+=======
+terraform
+>>>>>>> production
 
